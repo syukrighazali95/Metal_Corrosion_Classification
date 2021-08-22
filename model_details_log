@@ -1,0 +1,24 @@
+rust_binary_v1.h5
+- 5 epochs
+- default learning rate
+- VGG16
+- binary classification
+- Adam optimizer
+- accuracy - 85%
+
+rust_binary_v2.h5
+- 7 epochs
+- learning rate = 0.02
+- VGG16
+- binary classification
+- RMSprop optimizer
+- accuracy - 86%
+
+## Note: This model has been removed
+rust_binary_v3.h5
+- 10 epochs
+- learning rate = 0.02
+- VGG16
+- binary classification
+- Adam optimizer
+- accuracy - 92%
