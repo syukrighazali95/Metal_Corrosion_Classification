@@ -3,10 +3,10 @@ from tensorflow.keras.layers.experimental import preprocessing
 from helper_functions import walk_through_dir, create_tensorboard_callback
 from tensorflow.keras import layers
 
-train_dir = "D:/git/Metal_Corrosion_Classification/Datasets/Classification datasets/train"
-test_dir = "D:/git/Metal_Corrosion_Classification/Datasets/Classification datasets/test"
+train_dir = "./Datasets/Classification datasets/train"
+test_dir = "./Datasets/Classification datasets/test"
 
-walk_through_dir("D:/git/Metal_Corrosion_Classification/Datasets/Classification datasets/")
+walk_through_dir("./Datasets/Classification datasets/")
 
 IMG_SIZE = (224,224)
 
