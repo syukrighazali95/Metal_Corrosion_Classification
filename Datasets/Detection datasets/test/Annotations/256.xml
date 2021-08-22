@@ -1,0 +1,38 @@
+<annotation>
+	<folder>test</folder>
+	<filename>256.jpg</filename>
+	<path>D:\git\Metal_Corrosion_Classification\Datasets\Detection datasets\test\256.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>759</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rust</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>16</xmin>
+			<ymin>324</ymin>
+			<xmax>759</xmax>
+			<ymax>599</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>rust</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>456</xmin>
+			<ymin>24</ymin>
+			<xmax>759</xmax>
+			<ymax>326</ymax>
+		</bndbox>
+	</object>
+</annotation>

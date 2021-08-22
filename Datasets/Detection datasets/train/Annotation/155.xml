@@ -1,0 +1,38 @@
+<annotation>
+	<folder>train</folder>
+	<filename>155.jpg</filename>
+	<path>D:\git\Metal_Corrosion_Classification\Datasets\Detection datasets\train\155.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>374</width>
+		<height>135</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rust</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>153</xmin>
+			<ymin>4</ymin>
+			<xmax>371</xmax>
+			<ymax>126</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>rust</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>34</xmin>
+			<ymin>65</ymin>
+			<xmax>164</xmax>
+			<ymax>124</ymax>
+		</bndbox>
+	</object>
+</annotation>
