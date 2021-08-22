@@ -2,7 +2,7 @@ from PIL import Image
 import os
 
 jfif_list = []
-dataset_dir = "D:/git/Metal_Corrosion_Classification/Datasets/Google Image/No rust/Imageye - bridge metal - Google Search"
+dataset_dir = "./Datasets/Google Image/No rust/Imageye - bridge metal - Google Search"
 
 def convert_image_to_jpg(dataset_directory, class_name="", sub_directory=""):
     count = 100000
