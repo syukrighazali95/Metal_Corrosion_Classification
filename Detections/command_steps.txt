@@ -1,0 +1,8 @@
+cd Tensorflow/scripts
+python .\generate_tfrecord.py -x D:\git\Metal_Corrosion_Classification\Detections\Tensorflow\workspace\images\train -l D:\git\Metal_Corrosion_Classification\Detections\Tensorflow\workspace\annotations\label_map.pbtxt -o D:\git\Metal_Corrosion_Classification\Detections\Tensorflow\workspace\annotations\train.record
+python .\generate_tfrecord.py -x D:\git\Metal_Corrosion_Classification\Detections\Tensorflow\workspace\images\test -l D:\git\Metal_Corrosion_Classification\Detections\Tensorflow\workspace\annotations\label_map.pbtxt -o D:\git\Metal_Corrosion_Classification\Detections\Tensorflow\workspace\annotations\test.record
+python .\update_config.py
+cd ../..
+python Tensorflow\models\research\object_detection\model_main_tf2.py --model_dir=Tensorflow\workspace\models\my_ssd_mobnet --pipeline_config_path=Tensorflow\workspace\models\ssd_mobnet2\pipeline.config --num_train_steps=2000
+python Tensorflow\models\research\object_detection\model_main_tf2.py --model_dir=Tensorflow\workspace\models\my_ssd_mobnet --pipeline_config_path=Tensorflow\workspace\models\ssd_mobnet2\pipeline.config --checkpoint_dir=Tensorflow\workspace\models\my_ssd_mobnet  
+python .\load_and_detect_images.py
